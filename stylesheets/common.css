@@ -1,0 +1,58 @@
+body{
+    /*background:url('../static/images/sample-run.jpg') no-repeat fixed top; 
+    background-size:100% 50%;*/
+    background-color:#CF3A23;
+    font-family:Rokkitt, Georgia, serif; 
+    color:white; 
+    margin:0;
+    
+}
+header{   
+    display:block;
+    background-color:#54170D;
+    height: 60px;
+    font-size:20px;
+    position:fixed;
+    width: 100%;
+    top:0;
+}
+
+header div{
+    position:relative;
+}
+header img{
+}
+
+header ul{    
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left:95%;
+    margin: 0;    
+}
+
+header li{
+    list-style: none;    
+    display:inline;
+}
+div.content{
+    position:relative;
+    top: 30%;
+    clear: both;
+    max-width:960px;
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align:center; 
+    margin: 0;
+    font-size:6.2em; 
+    font-weight: 700;
+}
+
+p.header-sub-text{
+    font-size:2.8em;
+    text-align:center;
+    margin-top: 30px;
+}
