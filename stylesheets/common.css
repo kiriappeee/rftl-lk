@@ -1,58 +1,80 @@
-body{
-    /*background:url('../static/images/sample-run.jpg') no-repeat fixed top; 
-    background-size:100% 50%;*/
+html, body{
+    height:100%;
+    width:100%;
     background-color:#CF3A23;
-    font-family:Rokkitt, Georgia, serif; 
+}
+
+body{
+    /*background-image:url('../static/images/sample-run.jpg'); 
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;    */
+    font-family:'Rokkitt', 'Georgia', serif; 
     color:white; 
     margin:0;
+    font-size:20px;
     
 }
 header{   
     display:block;
-    background-color:#54170D;
+    background-color:#4F160D;
     height: 60px;
     font-size:20px;
     position:fixed;
     width: 100%;
-    top:0;
+    box-sizing: border-box;
 }
 
-header div{
-    position:relative;
-}
 header img{
+    float:left;
 }
 
 header ul{    
-    position: absolute;
     text-align: left;
-    top: 50%;
-    left:95%;
-    margin: 0;    
+    float:right;
+    /*margin-top:15px;;    */
 }
 
-header li{
+header li{    
     list-style: none;    
-    display:inline;
+    display:inline;<F5>
+    margin-right:20px;
 }
-div.content{
-    position:relative;
-    top: 30%;
-    clear: both;
-    max-width:960px;
-    margin: 0 auto;
 
+header a{
+    color:#D77465;
+    text-decoration:none;
+}
+
+header a:hover, a:visited{
+    color: #DEB1AB;
+}
+
+div.content{    
+    clear: both;
+    /*background:rgba(250,148,132,0.5);*/    
+    min-width:100%;
+    min-height:100%;
+    padding-top:80px;
+    box-sizing:border-box;
+    top: 30%;
+    margin: 0 auto;
 }
 
 h1{
+    
+    font-family:'Alice', serif;
     text-align:center; 
     margin: 0;
-    font-size:6.2em; 
-    font-weight: 700;
+    font-size:4.5em; 
+    font-weight: bold;
 }
 
 p.header-sub-text{
-    font-size:2.8em;
+    font-family: 'Rokkitt', sans-serif;
+    font-size:1.7em;
     text-align:center;
-    margin-top: 30px;
+    margin: 30px 0 0 0;   
 }
+
+
